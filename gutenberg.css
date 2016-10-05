@@ -1,6 +1,6 @@
 body {
     font-family: “Helvetica Regular”, Helvetica, Arial, sans-serif;
-    background: linear-gradient(-90deg, #106082, #4997ce);
+    background: linear-gradient(-90deg, #263238, #455a64) !important;
     color: white !important;
 }
 
@@ -16,10 +16,22 @@ p {
     text-align: left;
     margin-left: 25%;
     margin-right: 25%;
-    margin-top: .5em !important;
-    margin-bottom: .5em !important;
+    margin-top: .75em !important;
+    margin-bottom: .75em !important;
+}
+
+blockquote {
+    display: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    text-decoration: underline;
+    font-size: 2em;
+}
+
+img {
+    margin: auto;
+    display: block;
+    max-width: 50em;
+    max-height: 50em;
+    transform: scaleY(-1);
 }
