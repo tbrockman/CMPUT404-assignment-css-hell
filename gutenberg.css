@@ -1,0 +1,25 @@
+body {
+    font-family: “Helvetica Regular”, Helvetica, Arial, sans-serif;
+    background: linear-gradient(-90deg, #106082, #4997ce);
+    color: white !important;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: #ddd;
+}
+
+p {
+    text-align: left;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: .5em !important;
+    margin-bottom: .5em !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: underline;
+}
