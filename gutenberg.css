@@ -15,7 +15,7 @@ a:hover {
 .caption {
     font-style: italic;
     font-weight: 100 !important;
-    transform: scale(-1, 1);
+    transform: scale(-1, -1);
     display: block;
 }
 
