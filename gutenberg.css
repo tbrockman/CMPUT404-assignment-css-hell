@@ -12,6 +12,13 @@ a:hover {
     color: #ddd;
 }
 
+.caption {
+    font-style: italic;
+    font-weight: 100 !important;
+    transform: scale(-1, 1);
+    display: block;
+}
+
 p {
     text-align: left;
     margin-left: 25%;
