@@ -1,0 +1,29 @@
+body {
+    font-family: Helv, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    height: 100%;
+    background-color: #ddd;
+}
+
+img {
+    width: 20em;
+    height: 20em;
+    margin: auto;
+    display: block;
+}
+
+.centered {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 25%;
+}
+
+.centered p {
+    text-align: center;
+    font-size: 4.5em;
+    margin: 0;
+    text-shadow: #3f294d 1px 1px 1px;
+    color: #3f294d;
+}

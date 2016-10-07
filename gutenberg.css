@@ -41,4 +41,5 @@ img {
     max-width: 50em;
     max-height: 50em;
     transform: scaleY(-1);
+    border-radius: 1em;
 }
