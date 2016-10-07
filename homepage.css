@@ -1,9 +1,11 @@
 body {
-    font-family: Helv, sans-serif;
+    font-family: Helvetica, sans-serif;
     font-style: normal;
     font-weight: 600;
     height: 100%;
-    background-color: #ddd;
+    background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.3)),url("theo.jpeg");
+    filter: grayscale(100%);
+    background-size: cover;
 }
 
 img {
@@ -24,6 +26,22 @@ img {
     text-align: center;
     font-size: 4.5em;
     margin: 0;
-    text-shadow: #3f294d 1px 1px 1px;
-    color: #3f294d;
+    text-shadow: #fff 1px 1px 1px;
+    color: #fff;
+}
+
+button {
+    background: none;
+    color: #fff;
+    font-size: 1.5em;
+    border: 1px solid;
+    padding: 10px;
+}
+
+.centered > button {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
