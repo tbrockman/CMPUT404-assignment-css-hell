@@ -1,11 +1,21 @@
 body {
-    font-family: Helvetica, sans-serif;
+
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 600;
     height: 100%;
-    background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.3)),url("theo.jpeg");
+    background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.3)),url("theo.jpeg");
     background-size: cover;
     overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #aaa;
 }
 
 img {
@@ -21,36 +31,53 @@ img {
     left: 0;
     top: 25%;
     text-align: center;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.6);
 }
 
 .centered > p {
     text-align: center;
-    font-size: 4.5em;
+    font-size: 105px;
     margin: 0;
     text-shadow: #fff 1px 1px 1px;
     color: #fff;
 }
 
 .column-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 82em;
     margin-top: -1em;
 }
 
 .column {
     display: inline-block;
-    width: 17em;
     vertical-align: top;
-    padding: 0 0.25em;
+}
+
+.first-column {
+    width:47%;
+    float:left;
+}
+
+.second-column {
+    width:53%;
+    margin-left: -0.6em;
+    float: right;
 }
 
 .column > p {
     color: #fff;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 100;
+    text-align: left;
+    line-height: 1.3em;
+    padding-right: 2em;
 }
 
 .column > ul {
+    list-style-type: none;
     text-align: left;
     color: #fff;
     font-weight: 100;
+    text-align: right;
 }
