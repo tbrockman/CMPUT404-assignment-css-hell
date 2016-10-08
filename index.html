@@ -1,29 +1,54 @@
+<!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="homepage.css">
-<link rel="stylesheet" type="text/css"
-          href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
 <title>
     Theodore Brockman - Software developer, pasta enthusiast,
 </title>
 </head>
 <body>
-    <div class="centered">
-        <p>THEODORE BROCKMAN</p>
-        <div class="column-container">
-            <div class="column first-column">
-                <p>
-                    Lorem ipsum dolor sit amet, cu duo cetero appellantur, aeque deserunt urbanitas in nec, in has solum option. Ei sit wisi copiosae corrumpit, an vero sonet vel. Impedit offendit sapientem an eam, ut sed probo velit utamur, sea aeterno ancillae sensibus ne. Vix posse perfecto sensibus eu, omnis animal eligendi an eos.
-                </p>
-            </div>
-            <div class="column second-column">
-                <ul>
-                    <li><a href="https://github.com/tbrockman/">https://github.com/tbrockman/</a></li>
-                    <li><a href="https://soundcloud.com/nat-port">https://soundcloud.com/nat-port</a></li>
-                    <li><a href="mailto:tbrockma@ualberta.ca">tbrockma@ualberta.ca</a></li>
-                </ul>
+    <div class="carousel">
+        <div class=centered>
+            <p>THEODORE BROCKMAN</p>
+            <div class="column-container">
+                <div class="column first-column">
+                    <p>
+                        is a 23-year-old software developer who spends most of his time playing video games and rock climbing. Occasionally he tries to be creative through whatever artistic means he currently has at his disposal. He likes coffee and has never taken a long walk on the beach.
+                    </p>
+                </div>
+                <div class="column second-column">
+                    <ul>
+                        <li><a href="https://github.com/tbrockman/">https://github.com/tbrockman/</a></li>
+                        <li><a href="https://soundcloud.com/nat-port">https://soundcloud.com/nat-port</a></li>
+                        <li><a href="mailto:tbrockma@ualberta.ca">tbrockma@ualberta.ca</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
+        <div>
+        </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.carousel').slick({
+                dots: false,
+                infinite: true,
+                speed: 600,
+                slidesToShow: 1,
+                autoplay: false,
+                prevArrow: '<div class="slick-prev"><i class="fa fa-chevron-left"></i></div>',
+                nextArrow: '<div class="slick-next"><i class="fa fa-chevron-right"></i></div>'
+            });
+      });
+    </script>
+
 <body>
 </html>

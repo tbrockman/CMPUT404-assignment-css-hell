@@ -1,5 +1,8 @@
-body {
+html {
+    height: 100%;
+}
 
+body {
     font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -26,12 +29,7 @@ img {
 }
 
 .centered {
-    position: absolute;
-    right: 0;
-    left: 0;
-    top: 25%;
     text-align: center;
-    background-color: rgba(0,0,0,0.6);
 }
 
 .centered > p {
@@ -40,6 +38,7 @@ img {
     margin: 0;
     text-shadow: #fff 1px 1px 1px;
     color: #fff;
+    text-rendering: optimizelegibility;
 }
 
 .column-container {
@@ -70,7 +69,6 @@ img {
     font-size: 18px;
     font-weight: 100;
     text-align: left;
-    line-height: 1.3em;
     padding-right: 2em;
 }
 
@@ -80,4 +78,35 @@ img {
     color: #fff;
     font-weight: 100;
     text-align: right;
+}
+
+.slick-next {
+    right: 15px !important;
+    margin-right: -15px;
+}
+
+.slick-prev {
+    left: 15px !important;
+    z-index: 1;
+    margin-left: -15px;
+}
+
+.slick-arrow {
+    display: flex !important;
+    align-items: center;
+    height: 100% !important;
+    justify-content: center;
+    width: 200px !important;
+}
+
+.slick-arrow:hover {
+    background-color: rgba(33,33,33,0.5) !important;
+}
+
+.carousel {
+    position: absolute !important;
+    right: 0;
+    left: 0;
+    top: 25%;
+    background-color: rgba(0,0,0,0.6);
 }
