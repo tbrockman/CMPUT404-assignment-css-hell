@@ -14,11 +14,11 @@
 <body>
     <div class="carousel">
         <div class=centered>
-            <p>THEODORE BROCKMAN</p>
+            <h1>THEODORE BROCKMAN</h1>
             <div class="column-container">
                 <div class="column first-column">
                     <p>
-                        is a 23-year-old software developer who spends most of his time playing video games and rock climbing. Occasionally he tries to be creative through whatever artistic means he currently has at his disposal. He likes coffee and has never taken a long walk on the beach.
+                        is a 23-year-old software developer who spends most of his time playing video games and rock climbing. Occasionally he tries to be creative through whatever artistic means he has at his disposal. He likes coffee and has never taken a long walk on the beach.
                     </p>
                 </div>
                 <div class="column second-column">
@@ -30,7 +30,10 @@
                 </div>
             </div>
         </div>
-        <div>
+        <div class="centered">
+            <div class="column">
+                <p>Test 123123123123</p>
+            </div>
         </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -44,9 +47,13 @@
                 speed: 600,
                 slidesToShow: 1,
                 autoplay: false,
+                focusOnSelect: true,
+                accessibility: true,
                 prevArrow: '<div class="slick-prev"><i class="fa fa-chevron-left"></i></div>',
                 nextArrow: '<div class="slick-next"><i class="fa fa-chevron-right"></i></div>'
             });
+
+            $('.carousel').focus()
       });
     </script>
 
