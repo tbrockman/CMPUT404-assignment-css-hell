@@ -1,6 +1,6 @@
 Part 1:
 ====================
-Necessary modifications: Had to add "<link rel="stylesheet" type="text/css" href="gutenberg.css">" to each HTML file.
+Necessary modifications: Had to add "```html<link rel="stylesheet" type="text/css" href="gutenberg.css">```" to each HTML file.
 
 Assignment: CSS Hell
 ====================
