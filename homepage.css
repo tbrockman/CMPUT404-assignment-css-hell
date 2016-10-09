@@ -23,7 +23,7 @@ a:hover {
 }
 
 a.big-link {
-    font-size: 2em;
+    font-size: 1.8em;
 }
 
 img {
@@ -31,10 +31,6 @@ img {
     height: 20em;
     margin: auto;
     display: block;
-}
-
-.centered {
-    text-align: center;
 }
 
 h1 {
@@ -47,6 +43,10 @@ h1 {
 
 h2 {
     text-transform: uppercase;
+}
+
+.centered {
+    text-align: center;
 }
 
 .centered > h1 {
@@ -84,11 +84,22 @@ h2 {
     float: right;
 }
 
+.left-column {
+    width:23.5%;
+    float:left;
+    margin-top: -0.3em;
+}
+
+.right-column {
+    width: 76.5%;
+    float: left;
+}
+
 .restricted-width {
     width: 55em;
 }
 
-.column > p {
+p {
     color: #fff;
     font-size: 18px;
     font-weight: 100;
